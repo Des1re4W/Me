@@ -25,7 +25,7 @@ function About() {
               <p className="about-body">
                 I am also <span className="highlight">system-oriented</span>, able to understand how different
                 components work together and approach challenges with an overall view. As a 
-                <span className="highlight">work-based learner</span>, I gained practical experience in 
+                <span className="highlight"> work-based learner</span>, I gained practical experience in 
                 applying what I've learned in real-world scenarios.
               </p>
               
