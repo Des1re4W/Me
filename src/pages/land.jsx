@@ -47,7 +47,7 @@ function Land() {
 
             <div className="button-column">
                 <button className="side-btn social-btn">
-                    <a href="https://www.linkedin.com/in/shan-benzer" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/shan-benzer-fajagutana-01a73b369/" target="_blank" rel="noopener noreferrer">
                         <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
                     </a>
                 </button>
