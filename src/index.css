@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --galaxy-bg-primary: #0a0a15;
+  --galaxy-bg-secondary: #0f0f23;
+  --galaxy-bg-tertiary: #1a1a2e;
+  --galaxy-bg-glass: rgba(255, 255, 255, 0.05);
+
+  --text-primary: #f8fafc;
+  --text-secondary: rgba(248, 250, 252, 0.9);
+  --text-muted: rgba(248, 250, 252, 0.6);
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-galaxy);
+  font-size: clamp(16px, 2.25vw, 18px);
+  line-height: 1.6;
+  color: var(--text-primary);
+  background: var(--galaxy-bg-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  isolation: isolate;
+}
+
+
+@media (max-width: 768px) {
+  .grid-galaxy {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+}
+
+.header {
+  background: rgba(10, 10, 21, 0.9) !important;
+  backdrop-filter: blur(40px) !important;
+  border-bottom: 1px solid var(--border-galaxy) !important;
+}
+
+.land-container {
+  background: transparent !important;
+  position: relative;
+  z-index: 2;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--galaxy-bg-secondary);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--nebula-purple), var(--nebula-pink));
+  border-radius: 10px;
+}
+
+::selection {
+  background: linear-gradient(45deg, var(--nebula-purple), var(--nebula-pink));
+  color: white;
+}
