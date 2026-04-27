@@ -52,7 +52,7 @@ function Land() {
                     </a>
                 </button>
                 <button className="side-btn social-btn">
-                    <a href="https://www.instagram.com/des1redug/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/hellcutie_/" target="_blank" rel="noopener noreferrer">
                         <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
                     </a>
                 </button>
